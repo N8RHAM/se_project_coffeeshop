@@ -112,15 +112,17 @@
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label for="" class="form__label">
+              <label for="Name" class="form__label">
                 Name *<input
+                  name="Name"
                   placeholder="    Name Surname"
                   type="text"
                   class="form__input"
                 />
               </label>
-              <label for="" class="form__label">
+              <label for="Num" class="form__label">
                 Number of guests *<input
+                  name="Num"
                   placeholder="   1-8"
                   type="number"
                   min="1"
@@ -128,11 +130,16 @@
                   class="form__input"
                 />
               </label>
-              <label for="" class="form__label">
-                Date & Time *<input type="datetime-local" class="form__input" />
+              <label for="Date" class="form__label">
+                Date & Time *<input
+                  name="Date"
+                  type="datetime-local"
+                  class="form__input"
+                />
               </label>
-              <label for="" class="form__label">
+              <label for="email" class="form__label">
                 Your email *<input
+                  name="email"
                   placeholder="   email@email.com"
                   type="email"
                   class="form__input"
@@ -140,9 +147,9 @@
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
-            <label for="" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" />I agree with the
-              terms of use
+            <label for="checkbox" class="form__label form__label_type_checkbox">
+              <input name="checkbox" type="checkbox" class="form__checkbox" />I
+              agree with the terms of use
             </label>
           </form>
         </section>
