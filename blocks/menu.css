@@ -17,7 +17,7 @@
 }
 
 .menu__subtitle {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   text-align: center;

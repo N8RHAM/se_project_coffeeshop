@@ -36,7 +36,7 @@
 .about__content {
   margin: 119px 80px 173px 20px;
   max-width: 660px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
