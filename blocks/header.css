@@ -1,4 +1,5 @@
 .header {
+  box-sizing: border-box;
   background-color: #ffffff;
   background-image: URL(../images/background_header.svg);
   background-repeat: no-repeat;
@@ -10,6 +11,7 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  position: relative;
 }
 
 .header__title {
@@ -60,6 +62,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  align-items: flex-end;
 }
 
 .header__paragraphs {
