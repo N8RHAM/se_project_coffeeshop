@@ -27,8 +27,7 @@
 }
 
 .header__description {
-  min-width: 683px;
-  max-height: 60px;
+  max-width: 683px;
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
