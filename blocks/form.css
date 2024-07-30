@@ -49,13 +49,15 @@
   font-size: 16px;
   line-height: 20px;
   border-radius: 4px;
-  background-color: #2f80ed;
+  background-color: #1878dc;
   color: #ffffff;
 }
 
 .form__button:hover {
   opacity: 70%;
   cursor: pointer;
+  background-color: #3f96f3;
+  transition: 0.5s;
 }
 
 .form__checkbox {
